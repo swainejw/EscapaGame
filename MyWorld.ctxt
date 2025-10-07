@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=MyWorld
+comment1.params=
+comment1.target=MyWorld()
+comment2.params=
+comment2.target=void\ act()
+comment3.params=maxVal\ avoidMin\ avoidMax
+comment3.target=int\ getRndExclude(int,\ int,\ int)
+comment3.text=\ this\ method\ chooses\ a\ random\ number\ from\ 0\ up\ to\ maxVal,\ but\n\ makes\ sure\ not\ to\ pick\ it\ between\ avoidMin\ and\ avoidMax\n\ \n\ For\ example,\ if\ maxVal\ is\ 800,\ avoidMin\ is\ 200,\ and\ avoidMax\n\ is\ 400,\ no\ number\ between\ 200-400\ would\ be\ returned\ and\ it\ \n\ also\ can't\ be\ above\ 800\n
+comment4.params=
+comment4.target=void\ colourStepping()
+comment4.text=\ this\ method\ is\ responsible\ for\ the\ colour\ flashing\ mode...\n\ not\ sure\ why\ I\ did\ this.\ it's\ annoying.\n
+comment5.params=
+comment5.target=void\ saveScoreToFile()
+numComments=6

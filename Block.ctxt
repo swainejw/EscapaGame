@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Block
+comment1.params=pid\ dir\ spd
+comment1.target=Block(int,\ int,\ int)
+comment2.params=pid\ dir\ spd\ trn
+comment2.target=Block(int,\ int,\ int,\ int)
+comment3.params=pid\ dir
+comment3.target=Block(int,\ int)
+comment4.params=
+comment4.target=void\ act()
+comment5.params=
+comment5.target=void\ determinePicture()
+comment6.params=
+comment6.target=void\ determineMotion()
+numComments=7
