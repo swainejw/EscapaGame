@@ -51,6 +51,7 @@ public class Block extends Actor
         
     }
     
+    // methods ////////////////////////
     public void act()
     {
         if (MyWorld.started)

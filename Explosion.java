@@ -8,11 +8,13 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Explosion extends Actor
 {
+    // Instance Variables ////////////////////////
     GreenfootImage exImages[] = new GreenfootImage[32];
     SimpleTimer t = new SimpleTimer();
     int timeMultiple = 30;
     int frame = 0;
     
+    // Constructor /////////////////////////
     public Explosion()
     {
         for (int x = 0; x < 31; x++)
@@ -28,6 +30,7 @@ public class Explosion extends Actor
         }
     }
     
+    // Methods //////////////////////////////////
     public void act()
     {
         frame = t.millisElapsed()/timeMultiple;

@@ -8,13 +8,16 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Hero extends Actor
 {
+    // Instance Variables ////////////////////////
     int speed = 6;
     
+    // Constructor ////////////////////////
     public Hero()
     {
         getImage().scale(30, 40);
     }
     
+    // Methods ////////////////////////
     public void act()
     {
         if (MyWorld.started)
