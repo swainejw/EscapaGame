@@ -17,7 +17,7 @@ public class Explosion extends Actor
     // Constructor /////////////////////////
     public Explosion()
     {
-        for (int x = 0; x < 31; x++)
+        for (int x = 0; x < 32; x++)
         {
             if (x < 10)
             {
